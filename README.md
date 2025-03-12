@@ -11,19 +11,6 @@ A simple **feedforward neural network** built from scratch using **Python** and 
 ✅ Works for **classification tasks** (e.g., predicting handwritten digits from MNIST)  
 ✅ Easy to extend and modify  
 
----
-
-## 📂 Project Structure
-```
-📁 neural-network-from-scratch
-│── 📄 neural_network.py       # Core neural network implementation
-│── 📄 train.py                # Training script
-│── 📄 utils.py                # Helper functions (e.g., data loading, activation functions)
-│── 📄 README.md               # Project documentation
-│── 📄 requirements.txt        # Required dependencies
-```
-
----
 
 ## ⚙️ How It Works
 ### **1️⃣ Forward Propagation**
@@ -66,23 +53,12 @@ A = \sigma(Z)
 
 ---
 
-## 🛠 Installation & Setup
+## 🛠 Copy all codebooks
 1. **Clone the repository**
    ```sh
-   git clone https://github.com/yourusername/neural-network-from-scratch.git
-   cd neural-network-from-scratch
-   ```
-
-2. **Install dependencies**
-   ```sh
-   pip install -r requirements.txt
-   ```
-
-3. **Run the training script**
-   ```sh
-   python train.py
-   ```
-
+   git clone https://github.com/DivyanshRajput126/NeuralNetworkFromScratch.git
+   cd NeuralNetworkFromScratch
+   ````
 ---
 
 ## 📊 Example Usage
@@ -107,14 +83,13 @@ print(nn.predict(X))
 ## 🧩 Supported Activation Functions
 ✅ **Sigmoid**  
 ✅ **ReLU**  
-✅ **Tanh**  
 ✅ **Softmax**  
 
 ---
 
 ## 🎯 Future Improvements
 - 🏆 Add support for batch training  
-- 🎨 Implement different optimizers (Adam, RMSProp)  
+- 🎨 Implement different optimizers and activation functions(SGD,AdaDelta,TanH)  
 - 📈 Visualize training loss over epochs  
 - 🔥 Extend to deeper architectures  
 
